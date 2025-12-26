@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "formula1-display-bold";
+    src: url("Formula1-Bold_web_0.ttf");
+}
+*{
+    font-family: 'Formula1-display-bold', sans-serif;
+    background-color: aliceblue;
+}
+.form{
+    text-align: center;
+    margin: auto;
+    margin-top: 20vh;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    background-color: rgba(116, 204, 255, 0.274);
+    color: rgb(0, 0, 0);
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: oblique;
+}
+.btn{
+    border-radius: 20px;
+    color: rgb(98, 0, 255);
+    font-size: large;
+}
+.input{
+    border-radius: 20px;
+    text-shadow: none;
+}

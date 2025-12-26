@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "formula1-display-bold";
+    src: url("Formula1-Bold_web_0.ttf");
+}
+
+*{
+    font-family: 'Formula1-display-bold', sans-serif;
+    background-color: aliceblue;
+    color:black;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: auto;
+    margin-top: auto;
+    background-color: rgb(184, 184, 184);
+    width: 400vh;
+    height: 140px;
+}
+
+.h1{
+    background-color: black;
+}
+
+.ah{
+    background-color: rgb(184, 184, 184);
+    margin-bottom: 0;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 180vh;
+    margin-top: auto;
+}
+
+.menu {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    text-decoration: none; 
+    color: black;
+}
+
+.menu ul {
+    font-size: 15px; 
+    margin: 0 auto; 
+    text-decoration: none; 
+    color: black;
+}
+
+.menu ul li {
+    display: inline; 
+    text-decoration: none; 
+    color: black;
+}
+
+.menu ul li a {
+    margin: 0 auto; 
+    text-decoration: none; 
+    color: black;
+} 
+
+table tr td {
+    border-collapse: collapse;
+    border: solid 1px;
+    align-items: center;
+    
+    }
+
+th {
+    border-collapse: collapse;
+    border: solid 1px;
+    align-items: center;
+}    
